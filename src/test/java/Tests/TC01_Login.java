@@ -10,6 +10,6 @@ public class TC01_Login extends BaseTest {
 
         setup();
 
-        // tearDown();
+         tearDown();
 }
 }

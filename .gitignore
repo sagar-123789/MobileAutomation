@@ -1,0 +1,50 @@
+# IDE specific files (IntelliJ, Eclipse, VS Code)
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Build artifacts and output directories
+target/
+build/
+bin/
+out/
+
+# Maven/Gradle specific
+pom.xml.tag
+pom.xml.next
+pom.xml.last
+pom.xml.merge
+project.hidefocus
+.mvn/wrapper/maven-wrapper.jar
+!**/.mvn/wrapper/maven-wrapper.jar.sha256 # Exclude the jar but not the hash for security
+.gradle/
+classes/
+test-classes/
+
+# Test output and reports
+surefire-reports/
+test-output/
+allure-results/
+screenshots/
+downloads/
+error-screenshots/ # Common directory for test failure screenshots
+
+# Log files
+*.log
+logs/
+
+# Java-specific files
+*.class
+# Mobile app builds (APKs, IPAs) that should not be committed if built locally
+*.apk
+*.ipa
+
+# Configuration files with sensitive data (if applicable)
+# Note: it's better to use environment variables for secrets, but if files are used:
+# config.properties
+# settings.xml
